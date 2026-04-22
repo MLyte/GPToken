@@ -1,0 +1,2 @@
+# No pip dependencies required for the current Linux indicator.
+# GTK / AppIndicator come from system packages, e.g. python3-gi and libayatana-appindicator.

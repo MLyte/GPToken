@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  background: #faf8f2;
+  color: #222;
+}
+
+.wrap {
+  padding: 12px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.plans {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.plans button,
+#sync {
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.plans button.active {
+  background: #222;
+  color: white;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.bar {
+  height: 8px;
+  background: #ddd;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: #2f7d4a;
+}
+
+.hint {
+  font-size: 11px;
+  color: #666;
+  margin-top: 12px;
+}

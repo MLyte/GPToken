@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "GPTokens Companion",
+  "version": "0.1.0",
+  "description": "Track ChatGPT quotas locally and send state to GPTokens.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "webRequest",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "*://chatgpt.com/backend-api/conversation",
+    "*://chatgpt.com/backend-api/*/conversation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "GPTokens Companion",
+    "default_popup": "popup.html"
+  }
+}

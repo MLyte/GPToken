@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=GPTokens
+Comment=Indicateur ChatGPT dans la barre systeme
+Exec=python3 /home/mluyten/dev/GPTokens/chatgpt_indicator.py
+Icon=network-workgroup
+Terminal=false
+Categories=Utility;Network;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
